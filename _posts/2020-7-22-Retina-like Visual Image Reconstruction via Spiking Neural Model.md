@@ -15,20 +15,20 @@ range and high image quality.
 
 
 ## The framework
-<img src="https://raw.githubusercontent.com/Crazyspike/crazyspike.github.io/master/img/CVPR-2783.jpg" width = "300" height = "200" alt="1" align=center />
+![1-w70](https://raw.githubusercontent.com/Crazyspike/crazyspike.github.io/master/img/CVPR-2783.jpg)
 The spike camera based on fovea-like sampling and visual image reconstruction.
 
-<img src="/img/cvpr-27831.jpg" width = "300" height = "200" alt="1" align=center />
+![1-w70](https://raw.githubusercontent.com/Crazyspike/crazyspike.github.io/master/img/CVPR-27831.jpg)
 The overall architecture of spiking neural model.
 
-![](https://raw.githubusercontent.com/Crazyspike/crazyspike.github.io/master/img/CVPR-27832.jpg){:class="img-responsive"}
+![1-w70](https://raw.githubusercontent.com/Crazyspike/crazyspike.github.io/master/img/CVPR-27832.jpg)
 The microscopic analysis of spiking neural model. (a) The input spike data is converted to spike plane (black dashed box) and spike train (red dashed box). The spike plane connects to the motion local excitation layer, and the dynamic neurons at this moment are marked, while the spike train with the mark information input to the next layer. (b) The noise spikes are eliminated by the mechanism of the refractory period while the static and dynamic spikes are preserved. (c) Each input spikes yield a potential according to STDP, and if the accumulated membrane potential reaches the threshold, the model is adaptively adjusted to fit the input spikes.
 
 ## The results
-![](https://raw.githubusercontent.com/Crazyspike/crazyspike.github.io/master/img/CVPR-27833.jpg){:class="img-responsive"}
+![1-w70](https://raw.githubusercontent.com/Crazyspike/crazyspike.github.io/master/img/CVPR-27833.jpg)
 The reconstruction results on Class A and B. We compared our method with TFW, TFI and TFA on Class A. Since TFP and TFA have no ability to reconstruct dynamic scenes, we only compare our methods with TFI on Class B.
 
-![](https://raw.githubusercontent.com/Crazyspike/crazyspike.github.io/master/img/CVPR-27835.jpg){:class="img-responsive"}
+![1-w70](https://raw.githubusercontent.com/Crazyspike/crazyspike.github.io/master/img/CVPR-27835.jpg)
 The reconstruction results of different vision sensors.
 
 ###[Dataset](https://www.pkuml.org/resources/pku-spike-recon-dataset.html)
