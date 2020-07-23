@@ -15,23 +15,31 @@ range and high image quality.
 
 
 ## The framework
-<img src="https://raw.githubusercontent.com/Crazyspike/crazyspike.github.io/master/img/CVPR-2783.jpg" width="375" alt="fig1"/>
+<div align=center><img src="https://raw.githubusercontent.com/Crazyspike/crazyspike.github.io/master/img/CVPR-2783.jpg" width="500" alt="fig1"/>
 
-The spike camera based on fovea-like sampling and visual image reconstruction.
+The spike camera based on fovea-like sampling and visual image reconstruction. In FSM, the intensity of light is converted into voltage by the photoreceptor. Once the voltage reaches a predefined threshold, a one-bit spike is output and a signal to reset the integrator is dispatched at the same time. This process is quite similar to the integrate-and-fire neuron. Different luminance stimuli I leads to a different spike firing rate, the output and the reset are triggered asynchronously among various pixels.
 
-![](https://raw.githubusercontent.com/Crazyspike/crazyspike.github.io/master/img/CVPR-27831.jpg)
+<div align=center><img src="https://raw.githubusercontent.com/Crazyspike/crazyspike.github.io/master/img/CVPR-27831.jpg" width="500" alt="fig2"/>
+
 The overall architecture of spiking neural model.
 
-![](https://raw.githubusercontent.com/Crazyspike/crazyspike.github.io/master/img/CVPR-27832.jpg)
+<div align=center><img src="https://raw.githubusercontent.com/Crazyspike/crazyspike.github.io/master/img/CVPR-27832.jpg" width="500" alt="fig3"/>
+
 The microscopic analysis of spiking neural model. (a) The input spike data is converted to spike plane (black dashed box) and spike train (red dashed box). The spike plane connects to the motion local excitation layer, and the dynamic neurons at this moment are marked, while the spike train with the mark information input to the next layer. (b) The noise spikes are eliminated by the mechanism of the refractory period while the static and dynamic spikes are preserved. (c) Each input spikes yield a potential according to STDP, and if the accumulated membrane potential reaches the threshold, the model is adaptively adjusted to fit the input spikes.
 
 ## The results
-![](https://raw.githubusercontent.com/Crazyspike/crazyspike.github.io/master/img/CVPR-27833.jpg)
+<div align=center><img src="https://raw.githubusercontent.com/Crazyspike/crazyspike.github.io/master/img/CVPR-27833.jpg" width="500" alt="fig4"/>
+
 The reconstruction results on Class A and B. We compared our method with TFW, TFI and TFA on Class A. Since TFP and TFA have no ability to reconstruct dynamic scenes, we only compare our methods with TFI on Class B.
 
-![](https://raw.githubusercontent.com/Crazyspike/crazyspike.github.io/master/img/CVPR-27835.jpg)
+<div align=center><img src="https://raw.githubusercontent.com/Crazyspike/crazyspike.github.io/master/img/CVPR-27835.jpg" width="500" alt="fig5"/>
+  
 The reconstruction results of different vision sensors.
 
 ###[Dataset](https://www.pkuml.org/resources/pku-spike-recon-dataset.html)
+
 ###[Poster](https://raw.githubusercontent.com/Crazyspike/crazyspike.github.io/master/img/poster-2783.pdf)
+
 ###[Oral slide](https://www.slideshare.net/secret/mZdvclfFoD4IVh)
+
+###[PDF](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhu_Retina-Like_Visual_Image_Reconstruction_via_Spiking_Neural_Model_CVPR_2020_paper.pdf)
