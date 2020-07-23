@@ -15,7 +15,8 @@ range and high image quality.
 
 
 ## The framework
-![](https://raw.githubusercontent.com/Crazyspike/crazyspike.github.io/master/img/CVPR-2783.jpg)
+<img src="https://raw.githubusercontent.com/Crazyspike/crazyspike.github.io/master/img/CVPR-2783.jpg" width="375" alt="fig1"/>
+
 The spike camera based on fovea-like sampling and visual image reconstruction.
 
 ![](https://raw.githubusercontent.com/Crazyspike/crazyspike.github.io/master/img/CVPR-27831.jpg)
