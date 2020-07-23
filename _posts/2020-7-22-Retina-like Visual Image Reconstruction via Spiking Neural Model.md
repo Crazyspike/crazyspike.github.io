@@ -37,7 +37,4 @@ fovea to record the nature scenes by continuous-time spikes instead of frame-bas
 
 ---
 
-###[Dataset](https://www.pkuml.org/resources/pku-spike-recon-dataset.html)
-###[Poster](https://raw.githubusercontent.com/Crazyspike/crazyspike.github.io/master/img/poster-2783.pdf)
-###[Oral slide](https://www.slideshare.net/secret/mZdvclfFoD4IVh)
-###[PDF](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhu_Retina-Like_Visual_Image_Reconstruction_via_Spiking_Neural_Model_CVPR_2020_paper.pdf)
+## ###[Dataset](https://www.pkuml.org/resources/pku-spike-recon-dataset.html)###[Poster](https://raw.githubusercontent.com/Crazyspike/crazyspike.github.io/master/img/poster-2783.pdf)###[Oral slide](https://www.slideshare.net/secret/mZdvclfFoD4IVh)###[PDF](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhu_Retina-Like_Visual_Image_Reconstruction_via_Spiking_Neural_Model_CVPR_2020_paper.pdf)###
