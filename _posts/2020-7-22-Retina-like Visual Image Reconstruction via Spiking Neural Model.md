@@ -14,7 +14,7 @@ fovea to record the nature scenes by continuous-time spikes instead of frame-bas
 ## The framework
 <div align=center><img src="https://raw.githubusercontent.com/Crazyspike/crazyspike.github.io/master/img/CVPR-2783.jpg" width="500" alt="fig1"/>
 
-The spike camera based on fovea-like sampling and visual image reconstruction. In FSM, the intensity of light is converted into voltage by the photoreceptor. Once the voltage reaches a predefined threshold, a one-bit spike is output and a signal to reset the integrator is dispatched at the same time. This process is quite similar to the integrate-and-fire neuron. Different luminance stimuli I leads to a different spike firing rate, the output and the reset are triggered asynchronously among various pixels.
+<p align="left">The spike camera based on fovea-like sampling and visual image reconstruction. In FSM, the intensity of light is converted into voltage by the photoreceptor. Once the voltage reaches a predefined threshold, a one-bit spike is output and a signal to reset the integrator is dispatched at the same time. This process is quite similar to the integrate-and-fire neuron. Different luminance stimuli I leads to a different spike firing rate, the output and the reset are triggered asynchronously among various pixels.</p>
 
 <div align=center><img src="https://raw.githubusercontent.com/Crazyspike/crazyspike.github.io/master/img/CVPR-27831.jpg" width="500" alt="fig2"/>
 
