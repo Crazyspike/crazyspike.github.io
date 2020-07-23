@@ -31,7 +31,7 @@ fovea to record the nature scenes by continuous-time spikes instead of frame-bas
 
 <p align="left">The reconstruction results on Class A and B. We compared our method with TFW, TFI and TFA on Class A. Since TFP and TFA have no ability to reconstruct dynamic scenes, we only compare our methods with TFI on Class B.</p>
 
-<div align=center><img src="https://raw.githubusercontent.com/Crazyspike/crazyspike.github.io/master/img/CVPR-27835.jpg" width="500" alt="fig5"/></div>
+<p align=center><img src="https://raw.githubusercontent.com/Crazyspike/crazyspike.github.io/master/img/CVPR-27835.jpg" width="500" alt="fig5"/></p>
   
 <p align="left">The reconstruction results of different vision sensors.</p>
 
