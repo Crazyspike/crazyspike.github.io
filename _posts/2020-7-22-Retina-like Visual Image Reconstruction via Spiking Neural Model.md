@@ -22,7 +22,9 @@ fovea to record the nature scenes by continuous-time spikes instead of frame-bas
 <div align=center><img src="https://raw.githubusercontent.com/Crazyspike/crazyspike.github.io/master/img/CVPR-27832.jpg" width="500" alt="fig3"/></div>
 
 <p align="left">The overall architecture and the microscopic analysis of spiking neural model. (a) The input spike data is converted to spike plane (black dashed box) and spike train (red dashed box). The spike plane connects to the motion local excitation layer, and the dynamic neurons at this moment are marked, while the spike train with the mark information input to the next layer. (b) The noise spikes are eliminated by the mechanism of the refractory period while the static and dynamic spikes are preserved. (c) Each input spikes yield a potential according to STDP, and if the accumulated membrane potential reaches the threshold, the model is adaptively adjusted to fit the input spikes.</p>
+
 ---
+
 ## The results
 
 <div align=center><img src="https://raw.githubusercontent.com/Crazyspike/crazyspike.github.io/master/img/CVPR-27833.jpg" width="500" alt="fig4"/></div>
